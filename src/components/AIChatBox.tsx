@@ -123,7 +123,6 @@ export function ChatMessage({ message: { role, content } }: ChatMessageProps) {
           isAIMessage ? "bg-background" : "bg-foreground text-background"
         )}
       >
-        // eslint-disable-next-line @typescript-eslint/no-unused-vars
         <ReactMarkdown
           components={{
             // eslint-disable-next-line @typescript-eslint/no-unused-vars

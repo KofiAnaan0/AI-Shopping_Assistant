@@ -53,14 +53,14 @@ The implementation phase is divided into two key steps:
 
 ### a) User Phone Number Data Gathering
 
-![Login]()
+![Login](public/images/lg.JPG)
 
 In this step, a **MongoDB database** was used to store customer phone numbers.  
 The primary purpose of collecting users' phone numbers is to enable **cold marketing campaigns**, allowing targeted outreach to potential customers.
 
 ### b) Creating an AI-Powered Shopping Assistant
 
-![shopping-assistant]()
+![shopping-assistant](public/images/imp.JPG)
 
 An **AI-powered shopping assistant** was developed using the embedded dataset stored in the **Pinecone database**.  
 This setup provides the chatbot with **context-awareness**, enabling it to understand and address user needs effectively. By leveraging the embedded dataset, the chatbot can deliver relevant and personalized assistance to users.

@@ -64,15 +64,14 @@ export async function POST(req: Request) {
           "3. Discounts: Whether the product is currently discounted.\n" +
           "4. Ratings: Customer ratings (if available).\n\n" +
           "Guidelines for Recommendations:\n" +
-          "1. Recommend three products from different price ranges within a category.\n" +
-          "2. For each recommended product, include:\n" +
+          "1. For each recommended product, include:\n" +
           "- Price\n" +
           "- Discounts (if available)\n" +
           "- Ratings (if available)\n" +
           "- Explain why you think a particular product is a good fit\n" +
-          "3. Keep recommendations concise, engaging, and informative. Don't use outlines or bullet points.\n" +
-          "4. Prioritize the least expensive or highest-rated product in a sub-category, where applicable.\n" +
-          "5. Include a call to action, such as asking the customer’s budget or offering tailored suggestions.\n\n" +
+          "2. Keep recommendations concise, engaging, and informative. Don't use outlines or bullet points.\n" +
+          "3. Prioritize the least expensive or highest-rated product in a sub-category, where applicable.\n" +
+          "4. Include a call to action, such as asking the customer’s budget or offering tailored suggestions.\n\n" +
           "Guidelines for Answering Product-Related Questions:\n" +
           "1. Provide detailed information about the product, including:\n" +
           "- Price\n" +

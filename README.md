@@ -21,7 +21,7 @@ The digital commerce landscape demands intelligent systems that enhance customer
    - Bot Performance Evaluation  
    - Bot Limitations and Areas for Improvement
   
-5. **Conclusion**  
+[5. **Conclusion**](#5-Conclusion)  
     - Summary of Achievements  
     - Future Directions for Scalability and Improvement
   
@@ -94,19 +94,14 @@ For instance, despite the vector store containing over 10 categories, the bot wa
 
 This highlights an area for improvement, particularly in enhancing the chatbot's ability to perform more comprehensive and detailed queries across the entire dataset.
 
+## 5. Conclusion
 
-## Getting Started
+To enhance the chatbot's performance and user experience, the following improvements are recommended:
 
-First, run the development server:
+1. **Enhanced Prompt Engineering:**  
+   Improving the bot's prompting mechanism will enable it to handle more **in-depth searches** within the vector store, ensuring comprehensive and accurate query results.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+2. **Incorporation of Product Images:**  
+   Adding **product images** alongside recommendations will significantly enhance the user experience by providing a more **visually engaging interface** and better context for users.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+These enhancements will contribute to a more effective and user-friendly AI-powered shopping assistant.

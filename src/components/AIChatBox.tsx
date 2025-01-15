@@ -22,10 +22,7 @@ export default function AIChatBox() {
         id: "1",
         role: "assistant",
         content:
-          "Hello! I'm Kofi, your shopping assistant. " +
-          "Whether you're looking for specific products, exploring categories like desserts, breakfast, household essentials, snacks, and more, " +
-          "or need help with your shopping experience, " +
-          "I'm here to assist you. How can I help you today? ",
+          "Hello, I'm Kofi, your virtual shopping assistant. How can I assist you today?",
       },
     ],
   });
@@ -79,7 +76,7 @@ export default function AIChatBox() {
                 id: "1",
                 role: "assistant",
                 content:
-                  "Hello, I'm Kofi Anaan, your virtual shopping assistant. How can I assist you today?",
+                  "Hello, I'm Kofi, your virtual shopping assistant. How can I assist you today?",
               },
             ])
           }

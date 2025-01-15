@@ -17,7 +17,7 @@ The digital commerce landscape demands intelligent systems that enhance customer
 [3. **Testing Phase**](#3-Testing-Phase)
    - Test cases for validation
   
-4. **Analysis Phase**  
+[4. **Analysis Phase**](#4-Analysis-Phase)  
    - Bot Performance Evaluation  
    - Bot Limitations and Areas for Improvement
   
@@ -83,6 +83,16 @@ This test assessed the bot's capability to retain and reference information from
 This test measured the bot's effectiveness in recommending products to customers. The chatbot performed exceptionally well, delivering relevant and valuable product recommendations, as depicted in the image below:
 
 ![Recommendation Test](public/images/test_3.JPG)
+
+## 4. Analysis Phase
+
+While the chatbot demonstrates **context-awareness** of the dataset stored in the vector store, its performance is limited when handling in-depth queries.  
+
+For instance, despite the vector store containing over 10 categories, the bot was only able to retrieve information from **3 categories**, as shown in the image below:
+
+![Analysis Phase Results](path-to-image)
+
+This highlights an area for improvement, particularly in enhancing the chatbot's ability to perform more comprehensive and detailed queries across the entire dataset.
 
 
 ## Getting Started

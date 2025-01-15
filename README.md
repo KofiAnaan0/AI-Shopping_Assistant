@@ -90,7 +90,7 @@ While the chatbot demonstrates **context-awareness** of the dataset stored in th
 
 For instance, despite the vector store containing over 10 categories, the bot was only able to retrieve information from **3 categories**, as shown in the image below:
 
-![Analysis Phase Results](path-to-image)
+![Analysis Phase Results](public/images/an1.JPG)
 
 This highlights an area for improvement, particularly in enhancing the chatbot's ability to perform more comprehensive and detailed queries across the entire dataset.
 

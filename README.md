@@ -14,7 +14,7 @@ The digital commerce landscape demands intelligent systems that enhance customer
    - Prototype Development
    - Integration with external data
 
-3. **Testing Phase**
+[3. **Testing Phase**](#3-Testing-Phase)
    - Test cases for validation
   
 4. **Analysis Phase**  
@@ -64,6 +64,25 @@ The primary purpose of collecting users' phone numbers is to enable **cold marke
 
 An **AI-powered shopping assistant** was developed using the embedded dataset stored in the **Pinecone database**.  
 This setup provides the chatbot with **context-awareness**, enabling it to understand and address user needs effectively. By leveraging the embedded dataset, the chatbot can deliver relevant and personalized assistance to users.
+
+## 3. Testing Phase
+
+The chatbot underwent rigorous testing to ensure its functionality and effectiveness. The following tests were conducted:
+
+### a) Context-Aware Test
+This test evaluated the bot's ability to retrieve accurate information from the **vector store**. The results demonstrate that the bot successfully provides relevant and accurate responses, as shown in the image below:
+
+![Context-Aware Test](path-to-image)
+
+### b) Chat History Test
+This test assessed the bot's capability to retain and reference information from previous conversations. The results indicate that the chatbot successfully maintains a **chat history**, as illustrated in the image below:
+
+![Chat History Test](path-to-image)
+
+### c) Recommendation Test
+This test measured the bot's effectiveness in recommending products to customers. The chatbot performed exceptionally well, delivering relevant and valuable product recommendations, as depicted in the image below:
+
+![Recommendation Test](path-to-image)
 
 
 ## Getting Started

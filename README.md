@@ -72,17 +72,17 @@ The chatbot underwent rigorous testing to ensure its functionality and effective
 ### a) Context-Aware Test
 This test evaluated the bot's ability to retrieve accurate information from the **vector store**. The results demonstrate that the bot successfully provides relevant and accurate responses, as shown in the image below:
 
-![Context-Aware Test](path-to-image)
+![Context-Aware Test](public/images/test_1.JPG)
 
 ### b) Chat History Test
 This test assessed the bot's capability to retain and reference information from previous conversations. The results indicate that the chatbot successfully maintains a **chat history**, as illustrated in the image below:
 
-![Chat History Test](path-to-image)
+![Chat History Test](public/images/test_2.JPG)
 
 ### c) Recommendation Test
 This test measured the bot's effectiveness in recommending products to customers. The chatbot performed exceptionally well, delivering relevant and valuable product recommendations, as depicted in the image below:
 
-![Recommendation Test](path-to-image)
+![Recommendation Test](public/images/test_3.JPG)
 
 
 ## Getting Started

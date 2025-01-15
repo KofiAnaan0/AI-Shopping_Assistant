@@ -138,6 +138,7 @@ export function ChatMessage({ message: { role, content } }: ChatMessageProps) {
             p: ({ node, ...props }) => (
               <p {...props} className="mt-3 first:mt-0" />
             ),
+            // eslint-disable-next-line @typescript-eslint/no-unused-vars
             ul: ({ node, ...props }) => (
               <ul
                 {...props}

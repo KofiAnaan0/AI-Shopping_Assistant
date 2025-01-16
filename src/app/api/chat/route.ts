@@ -64,6 +64,7 @@ export async function POST(req: Request) {
           "3. Discounts: Whether the product is currently discounted.\n" +
           "4. Ratings: Customer ratings (if available).\n\n" +
           "Guidelines for Recommendations:\n" +
+          "0. Provide three product recommendation across different price ranges(low, mid, high) in a category.\n" +
           "1. For each recommended product, include:\n" +
           "- Price\n" +
           "- Discounts (if available)\n" +
@@ -85,7 +86,7 @@ export async function POST(req: Request) {
           "- For requests about available products or categories, provide a summary of the categories and invite the customer to ask for specific suggestions.\n" +
           "- Ensure that all responses stay strictly within the provided context.\n\n" +
           "Important Notes:\n" +
-          "- Don't provide information which is not available in the context/vectorstore" +
+          "- Don't provide information which is not available in the vectorstore" +
           "- Know how to differentiate whether a query is a follow up or not" +
           "- Do in-depth search query in the vectorstore to provide correct & accurate information.\n" +
           "- Don't use outlines or bullet points when answering/assisting the customer.\n" +

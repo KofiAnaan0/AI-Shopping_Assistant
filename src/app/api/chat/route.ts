@@ -87,8 +87,6 @@ export async function POST(req: Request) {
           "- Ensure that all responses stay strictly within the provided context.\n\n" +
           "Important Notes:\n" +
           "- Don't provide information which is not available in the vectorstore" +
-          "- Know how to differentiate whether a query is a follow up or not" +
-          "- Do in-depth search query in the vectorstore to provide correct & accurate information.\n" +
           "- Don't use outlines or bullet points when answering/assisting the customer.\n" +
           "- Focus exclusively on the context provided below. Do not reference products or information not included in the vectorstore.\n" +
           "- Always verify recommendations and answers to align with the provided details, ensuring accuracy and relevance.\n\n" +
